@@ -1,10 +1,10 @@
-#CTF ENCRYPTION PROJECT
+# CTF ENCRYPTION PROJECT
 
-##OVERVIEW
+## OVERVIEW
 This CTF project is an easy, encryption-based CTF challenge created using Python. The program will randomly generate and store a flag as encrypted text, and the user must figure out how to decrypt it.
 The flag is different each time the program is run, and the encryption algorithm is randomized as well.
 
-##SETUP
+## SETUP
 1. Make sure you have some version of Python 3 installed. If you need to install it, you can download it at www.python.org or through the Microsoft Store if you are on Windows.
 2. To get started using this program, download the ctf.py file and save it in a directory of your choosing.
 3. Start a terminal instance in the directory where the file is saved and run the program using the following command:
@@ -12,7 +12,7 @@ The flag is different each time the program is run, and the encryption algorithm
 python3 ctf.py
 ```
 
-##RUNNING THE PROGRAM
+## RUNNING THE PROGRAM
 The program itself should be fairly intuitive. It prompts the user to enter one of the following three commands:
   ```
   solve
@@ -30,9 +30,9 @@ There are only two hints and if the player repeatedly enters the 'hint' command 
 
 The 'quit' command quits the program.
 
-##TROUBLESHOOTING
+## TROUBLESHOOTING
 There are not currently any bugs that the developer is aware of. If an issue does arise, try exiting the program and restarting it. If issues continue, contact the developer.
 
-##Happy solving!
+## Happy solving!
 
 
