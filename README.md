@@ -32,6 +32,7 @@ The 'quit' command quits the program.
 
 ## TROUBLESHOOTING
 There are not currently any bugs that the developer is aware of. If an issue does arise, try exiting the program and restarting it. If issues continue, contact the developer.
+The flag should be in the format itc101{flag}
 
 ## Happy solving!
 
