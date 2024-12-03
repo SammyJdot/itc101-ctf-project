@@ -32,11 +32,11 @@ def main():
     shift = random.randint(1, 25)
     encrypted_flag = caesar_encrypt(flag, shift)
     print("Welcome to the CTF Encryption Challenge!")
-    print("Decipher the encrypted string to capture the flag!")
+    print("Decipher the encrypted password to capture the flag!")
     print("Type 'hint' if you need help or 'quit' to exit.")
     print("Category: Encryption")
     print("Tags: 'encryption', 'crypto', 'cipher', 'decode'")
-    print("NOTE: type 'solve' before entering the flag. Flag is randomized each time you run the program")
+    print("NOTE: type 'solve' before entering the password. Password is randomized each time you run the program")
     print(encrypted_flag)
     hint = 0
     while True:
