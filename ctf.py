@@ -1,6 +1,8 @@
 import random
 import sys
 
+FLAG = 'itc101{crAck3d_p@s$w0rD_j8DG62Lkc5}'
+
 def caesar_encrypt(text, shift):
     """Encrypts text using a Caesar Cipher with a given shift."""
     encrypted = []
@@ -15,10 +17,11 @@ def caesar_encrypt(text, shift):
 
 def generate_flag():
     """Generates a structured flag for better verification."""
-    prefix = "itc101{"
-    suffix = "}"
-    core = "SECURE" + ''.join(random.choices("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", k=6))
-    return prefix + core + suffix
+    # prefix = "itc101{"
+    # suffix = "}"
+    core = "SECURE_" + ''.join(random.choices("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", k=6))
+    # return prefix + core + suffix
+    return core
 
 def generate_hint(shift):
     """Provides a hint to the participants."""
@@ -43,7 +46,7 @@ def main():
             # Ask the user for their decrypted flag
             solution = input("Enter the decrypted flag: ").strip()
             if solution == flag:
-                print("Correct! You've captured the flag!")
+                print(f"Correct! The flag is {FLAG}")
                 again = input("Do you want to play again? (yes/no)")
                 if again == 'yes' or again == 'y':
                     main()
